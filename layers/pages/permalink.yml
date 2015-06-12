@@ -1,0 +1,4 @@
+
+
+when (datetime('2015-03-29') < now() and now() < datetime('2015-04-01')):
+  var special_event: (true)

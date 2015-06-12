@@ -1,0 +1,657 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"share",
+				"shareWrapper"
+			],
+			[
+				"vi",
+				"videoPlayer"
+			],
+			[
+				"lay",
+				"layoutProps"
+			],
+			[
+				"slider",
+				"sliderevents"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"servi",
+				"servicesArray"
+			],
+			[
+				"twitter",
+				"twitterMessage"
+			],
+			[
+				"he",
+				"headerHeight"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"js-cl",
+				"js-clingify-transparent"
+			],
+			[
+				"ans",
+				"answerContainer"
+			],
+			[
+				"result",
+				"resultsContainer"
+			],
+			[
+				"svgCheck",
+				"svgCheckmarkShadow"
+			],
+			[
+				"wra",
+				"wrapperClass"
+			],
+			[
+				"placeh",
+				"placeholderClass"
+			],
+			[
+				"place",
+				"placeholderClass"
+			],
+			[
+				"js-",
+				"js-clingify-placeholder"
+			],
+			[
+				"brand",
+				"brandcolorprimary"
+			],
+			[
+				"brandcolor",
+				"brandcolorsecondary"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"inline",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 116.0,
+		"last_filter": "diff",
+		"selected_items":
+		[
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"dif",
+				"FileDiffs: Menu"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"js ",
+				"Javascript Beautify"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimelinter ",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"sublime",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"package rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"js b",
+				"Javascript Beautify"
+			],
+			[
+				"js be",
+				"Javascript Beautify"
+			],
+			[
+				"settings",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"lin",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"prefer",
+				"Preferences: Settings - User"
+			],
+			[
+				"pre",
+				"Preferences: Settings - User"
+			],
+			[
+				"preferences",
+				"Preferences: Browse Packages"
+			],
+			[
+				"theme",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"preferen",
+				"Preferences: Settings - User"
+			],
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"hint",
+				"JSHint"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 149.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/andrewtheroux/Sites/happystatamp"
+	],
+	"file_history":
+	[
+		"/Users/andrewtheroux/Sites/betemplate/blocks/pages/permalink.twig",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/scss/modules/_slidestep.scss",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/layouts/main.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/grid.twig",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/scss/patterns/_offcanvas.scss",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/stepbystep.twig",
+		"/Users/andrewtheroux/Sites/betemplate/routes.yml",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/scss/modules/_gridoverlay.scss",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/js/main.js",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/scss/themes/_demo.scss",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/scss/themes/_demo-vars.scss",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/scss/themes/_default-vars.scss",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/aolfooter.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/offcanvas-wrapper.twig",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/scss/modules/_slideabout.scss",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/scss/main.scss",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/about.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/nowplaying.twig",
+		"/Users/andrewtheroux/Sites/betemplate/.gitignore",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/scss/themes/_default-theme.scss",
+		"/Users/andrewtheroux/Sites/betemplate/package.json",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/sponsor.twig",
+		"/Users/andrewtheroux/Sites/betemplate/vars.yml",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/js/plugins/slick-1.4.1.js",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/pages/show.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/placeholder.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/gallery.twig",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/js/plugins/slick-1.5.2.js",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/scss/modules/_gallery.scss",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/scss/modules/_stepbystep.scss",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/poll.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/svgs.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/nav.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/queue.twig",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/js/plugins/jquery.aolshare.custom.js",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/scss/modules/_nav.scss",
+		"/Users/andrewtheroux/Sites/betemplate/gulpfile.js",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/js/jquery.aolshare.custom.js",
+		"/Users/andrewtheroux/Sites/betemplate/assets/js/main.js",
+		"/Users/andrewtheroux/Sites/betemplate/betemplate.sublime-project",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/scss/modules/_queue.scss",
+		"/Users/andrewtheroux/Sites/betemplate/assets/css/main.css",
+		"/Users/andrewtheroux/Sites/betemplate/assets-bak/css/main.css",
+		"/Users/andrewtheroux/Sites/betemplate/assets-bak/css/demo.css",
+		"/Users/andrewtheroux/Sites/betemplate/assets/css/demo.css",
+		"/Users/andrewtheroux/Sites/betemplate/assets-src/scss/demo.scss",
+		"/Users/andrewtheroux/Sites/betemplate/assets/css/amex.min.css",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/sections/video.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/pages/supplemental.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/layouts/supplemental.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/alert.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/showlogo.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/pages/episode.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/pages/about.twig",
+		"/Users/andrewtheroux/Sites/betemplate/config/config.prod.yml",
+		"/Users/andrewtheroux/Sites/betemplate/config/config.sandbox.yml",
+		"/Users/andrewtheroux/Sites/betemplate/Layers/shows.yml",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/shows/demo.twig",
+		"/Users/andrewtheroux/Sites/betemplate/layers/demo.yml",
+		"/Users/andrewtheroux/Sites/betemplate/.editorconfig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/pages/list-posts.twig",
+		"/Users/andrewtheroux/Sites/betemplate/assets/js/init.js",
+		"/Users/andrewtheroux/Sites/betemplate/.jscsrc",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/includes/aolfooter.html",
+		"/Users/andrewtheroux/Sites/betemplate/includes/aolheader.html",
+		"/Users/andrewtheroux/Sites/betemplate/assets/someheader.html",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/includes/aolheader.html",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/includes/svgs.html",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/aolheader.html",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/includes",
+		"/Users/andrewtheroux/Sites/betemplate/old/src/templates/partials/common/aolfooter.html",
+		"/Users/andrewtheroux/Sites/betemplate/old/src/templates/partials/common/aolheader.html",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/modules/head.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/pages/recipe.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/pages/diy.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/pages/bio.twig",
+		"/Users/andrewtheroux/Sites/betemplate/blocks/pages/instructional.twig",
+		"/Users/andrewtheroux/Sites/betemplate/app/index.html",
+		"/Users/andrewtheroux/Sites/BeTemplate/.editorconfig",
+		"/Users/andrewtheroux/Sites/BeTemplate/gulpfile.js",
+		"/Users/andrewtheroux/Sites/BeTemplate/app/bower_components/fontawesome/fonts/fontawesome-webfont.eot",
+		"/Users/andrewtheroux/Sites/BeTemplate/app/bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss",
+		"/Users/andrewtheroux/Sites/BeTemplate/dist/index.html",
+		"/Users/andrewtheroux/Sites/BeTemplate/app/scripts/main.js",
+		"/Users/andrewtheroux/Sites/BeTemplate/app/index.html",
+		"/Users/andrewtheroux/Sites/BeTemplate/app/styles/main.scss",
+		"/Users/andrewtheroux/Sites/BeTemplate/package.json",
+		"/Users/andrewtheroux/Sites/BeTemplate/app/bower_components/bootstrap-sass-official/.bower.json",
+		"/Users/andrewtheroux/Sites/BeTemplate/app/bower_components/bootstrap-sass-official/bower.json",
+		"/Users/andrewtheroux/Sites/BeTemplate/app/bower_components/bootstrap-sass-official/CHANGELOG.md",
+		"/Users/andrewtheroux/Sites/BeTemplate/app/bower_components/bootstrap-sass-official/package.json",
+		"/Users/andrewtheroux/Sites/BeTemplate/bower.json",
+		"/Users/andrewtheroux/Sites/BeTemplate/.gitignore",
+		"/Users/andrewtheroux/Sites/BeTemplate/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js",
+		"/Users/andrewtheroux/Sites/BeTemplate/dist/css/style.css",
+		"/Users/andrewtheroux/Sites/BeTemplate/bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss",
+		"/Users/andrewtheroux/Sites/BeTemplate/dev/scss/style.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/patterns/_label-paragraph.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/_shame.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/patterns/_zoomsaturate.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/js/main.js",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/pages/_detail.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/modules/_header.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/_helper.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/pages/_hp.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/modules/_nav.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/_layout.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/pages/_griddemo.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/pages/_contact.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/pages/_work.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/pages/_about.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/_typography.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/main.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/_colors.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dist/os/beoncs/detail.html",
+		"/Users/andrewtheroux/Sites/BeOnCS/dist/os/beoncs/index.html",
+		"/Users/andrewtheroux/Sites/BeOnCS/dist/os/beoncs/about.html",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/js/plugins/modernizr-2.6.2-respond-1.1.0.min.js",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/modules/_detail.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/modules/_detail-page.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/patterns/_labels.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/patterns/_buttons.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/modules/_footer.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/modules/_hp.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dist/os/beoncs/grid.html",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/_mqs.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/dev/scss/_normalize.scss",
+		"/Users/andrewtheroux/Sites/BeOnCS/gulpfile.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Users/andrewtheroux/Sites/betemplate/blocks/modules",
+			"<open files>",
+			"/Users/andrewtheroux/Sites/SavingsExperiment/scss",
+			"/Users/andrewtheroux/Sites/heidi/scss"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"prevent",
+			"bind",
+			"carouselconf",
+			"bind",
+			"grid",
+			"bindbutton",
+			"ajax",
+			"button",
+			"42",
+			"clingyconf",
+			"share : ",
+			"queue-wrapper-clip",
+			"sharewrapper",
+			"share : ",
+			"share",
+			"loading",
+			"grid",
+			"videoplayer",
+			"videoPla",
+			"scroll",
+			"nowplaying",
+			"unslick",
+			"step",
+			"unslick",
+			"pretty",
+			"dontanim",
+			"slickGoto",
+			"slickgoto",
+			"right-",
+			".step",
+			"pause",
+			"step",
+			"wrapper",
+			"step",
+			"$sc",
+			"stepbystep",
+			"makeslick",
+			"$as",
+			"as",
+			"getcount",
+			"count",
+			"aol-share-count",
+			"span",
+			"templates",
+			"share",
+			"twitterMessa",
+			"{{media",
+			"{{message",
+			"postInfo",
+			"message",
+			"{{message",
+			"click",
+			"{{message",
+			"bid",
+			"pid",
+			"postMedia",
+			"postInfo",
+			"postMedia",
+			"pid",
+			"desc",
+			"aol-share",
+			"div",
+			"buildui",
+			"template",
+			"count",
+			"css",
+			"resolveUrl",
+			"getjs",
+			"options",
+			"plugin",
+			"digg",
+			"lifestream",
+			"elem",
+			"openwindow",
+			"style",
+			"css",
+			"cssloaded",
+			"css",
+			"custompag",
+			"changeslide",
+			"goto",
+			"pretty",
+			"href=",
+			"#about",
+			"headline",
+			"amex",
+			"'dist",
+			"'src'",
+			"autoadvan",
+			"nextepnum",
+			"data-ep-numb",
+			"$qi",
+			"data-queue-next",
+			"data",
+			"upnext",
+			"bg-",
+			"bg-wri",
+			"click",
+			"amex",
+			".queue-image",
+			".headline",
+			"upnext",
+			"next",
+			"upnext",
+			"current",
+			"queue",
+			"queuevideo_position",
+			".headline",
+			"hero",
+			".jpg",
+			".png",
+			"goal-based",
+			"bower",
+			"bowerfile",
+			"$navClose",
+			"$navOpen",
+			"$navWrap",
+			"nav-wrapper",
+			"vert",
+			"navopened",
+			"%col;",
+			"textlabelwrap",
+			"viewBox=\"0 0 10 10\"",
+			"accent",
+			"gutters",
+			".col;",
+			"506",
+			"delay"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$navCloseButton",
+			"$navOpenButton",
+			"$navOverlay",
+			"%col-no-pad;",
+			"viewBox=\"0 0 9 9\"",
+			"%col;",
+			"textlabelwrap",
+			"textlabel",
+			"mobiletiledims",
+			"tablettiledims",
+			"desktoptiledims",
+			"tau",
+			"30",
+			"\"",
+			".se-dl-home",
+			"-nav-button-"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 171.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "happystatamp.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Heidi.sublime-project"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/betemplate/BeTemplate.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

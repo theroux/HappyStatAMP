@@ -1,0 +1,35 @@
+{# 
+The purpose of this page is to demonstrate one way that a site-wide multivariant test 
+can be implemented.  In this case, we want to deliver some portion of the audience to
+an old experience and another portion to a new experience (or, even, more than one new 
+experience).  
+#}
+
+{% extends '@blocks/layouts/main.twig' %}
+
+{% block body_class %}sitetest{% endblock %}
+
+{% block main %}
+
+	{# Setup the beacon so that Data Layer can track the test. #}
+	<script type="text/javascript">
+		bN_cfg = {
+			h: location.hostname,
+			b: 'b.aol.com',
+			p: {
+				"dL_ch": "{{ vars.tracking.channel }}",
+				"dL_dpt": "{{ vars.tracking.department }}",
+				"dL_sDpt": "{{ 'Site Test' }}",
+				"dL_ste": "{{ vars.tracking.account }}",
+				"cms_src": "AMP",
+				"cobrand": "main"
+			}
+		};
+	</script>
+	<script src="http://o.aolcdn.com/os/aol/beacon.min.js"></script>
+
+	{# Use the site_test variable to point to the file that implements the matching experience. #}
+	{% include '@blocks/pages/sitetest/' ~ mv.site_test ~ '.twig' %}		
+
+{% endblock %}
+	

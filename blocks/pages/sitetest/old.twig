@@ -1,0 +1,21 @@
+{# Implement the old experience here.  Probably just call the necessary legal modules. #} 
+
+<div id="banner" class="box container">
+
+	<h2 class="bN" style="color:#839A9B;">Old Experience</h2>
+
+	{# Call the beacon to record the hit to this page. #}
+	<script type="text/javascript">
+
+		{# For now, just record that the user landed here so we can monitor that the percentages are being honored.  We could choose to monitor something else about the page, for instance, just if the user is here for more than 3 seconds.  #}
+
+		{% set test_hash = mv.beacon('site_test') %}
+		bN.set('mvts', '{{ test_hash }}', true);
+		bN.ping('mlt');
+		bN.set('mvts', '{{ test_hash }}', true);				
+		bN.click($('.bN')[0]);
+		{# NB: Reporting requires both a ping and a click as shown above. #}	
+
+	</script>
+
+</div>

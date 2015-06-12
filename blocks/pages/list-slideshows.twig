@@ -1,0 +1,68 @@
+{% extends '@blocks/layouts/main.twig' %}
+
+{% block main %}
+
+	{%
+		set slideshows = api.slideshows.query({
+			page: req.params.page|default(1),
+			limit: 3
+		})
+	%}
+
+	<div id="banner" class="box container">
+		<div class="row">
+			<div>
+				<h2>Slideshows</h2>
+				<p>We have slides <strong>for days</strong></p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Features -->
+	<div id="features-wrapper">
+		<div class="container">
+			<div class="row">
+
+				{% for slideshow in slideshows.results %}
+					<div class="4u">
+						<!-- Box -->
+						<section class="box feature">
+							<a href="/slideshows/{{ slideshow.slug }}" class="image featured">
+								<img src="http://o.aolcdn.com/dims-shared/dims3/GLOB/thumbnail/1000x700/{{ slideshow.image_url_large }}" alt="" />
+							</a>
+							<div class="inner">
+								<header>
+									<h2>{{ slideshow.title|raw }}</h2>
+								</header>
+								<p>
+									By <strong>{{ slideshow.contributor.byline|default('Unknown Author') }}</strong><br />
+									<em>{{ slideshow.published|date('M j, Y') }}</em>
+								</p>
+							</div>
+						</section>
+					</div>
+				{% endfor %}
+
+			</div>
+		</div>
+	</div>
+
+	<div id="features-wrapper">
+		<div class="container" style="text-align: center;">
+
+			{% set prev_page = slideshows.page > 1
+			? '/slideshows/page/' ~ (slideshows.page - 1) : null %}
+
+			{% set next_page = slideshows.page < slideshows.total_pages
+			? '/slideshows/page/' ~ (slideshows.page + 1) : null %}
+
+			<a href="{{ prev_page|default('#') }}"
+				 class="{{ prev_page ? '' : 'disabled' }} button icon fa-arrow-circle-left"
+				 title="Previous Page"></a>
+			<a href="{{ next_page|default('#') }}"
+				 class="{{ next_page ? '' : 'disabled' }} button icon fa-arrow-circle-right"
+				 title="Next Page"></a>
+		</div>
+	</div>
+
+{% endblock %}

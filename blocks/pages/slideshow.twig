@@ -1,0 +1,61 @@
+{% extends '@blocks/layouts/main.twig' %}
+
+{% block head %}
+	<script src="{{ asset('js/twist.min.js') }}"></script>
+	<link href="{{ asset('css/twist.css') }}" rel="stylesheet" />
+{% endblock %}
+
+{% block main %}
+
+	<div id="banner" class="box container">
+		<div class="row">
+			<div>
+				<h2><a style="color:#839A9B;" href="/slideshows/">Slideshows / </a><em>{{ slideshow.title|raw }}</em></h2>
+				<p>{{ slideshow.contributor.byline }}</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="gallery">
+	<ul class="photo-gallery">
+		{% for slide in slideshow.slides %}
+			<li class="photo" data-type="{{ slide.type }}">
+				<h4>{{ slide.title }}</h4>
+				<a href="/slides/{{ slide.id }}/{{ slide.slug }}"
+					 data-photo-src="{{ slide.image_url_large }}">
+					{{ slide.caption }}
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+	</div>
+
+	<script type="text/javascript">
+		$(function() {
+			$('#gallery').twist({
+				data: '.photo-gallery',
+				contentMap: {
+					entryArray: {
+						path: 'li.photo'
+					},
+					photoSrc: {
+						path: 'a[data-photo-src]'
+					},
+					caption: {
+						path: 'a[text]'
+					},
+					title: {
+						path: 'h4[text]'
+					},
+					thumbnail: {
+						path: 'a[data-photo-src]'
+					},
+					type: {
+						path: '[data-type]'
+					}
+				}
+			});
+		});
+	</script>
+
+{% endblock %}

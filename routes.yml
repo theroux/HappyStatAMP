@@ -1,0 +1,77 @@
+
+home:
+  path: /
+  view: @blocks/pages/home.twig
+
+# -----------------------------------------------------------------------------
+# List Posts
+# -----------------------------------------------------------------------------
+
+list-posts:
+  path:
+    - /posts
+    - /posts/page/{page:\d+}
+  view: @blocks/pages/list-posts.twig
+  trailing_slash: force
+
+list-posts-category:
+  path:
+    - /posts/{category}
+    - /posts/{category}/page/{page:\d+}
+  view: @blocks/pages/list-posts.twig
+  trailing_slash: force
+
+list-posts-category-tag:
+  path:
+    - /posts/{category}/{tag}
+    - /posts/{category}/{tag}/page/{page:\d+}
+  view: @blocks/pages/list-posts.twig
+  trailing_slash: force
+
+# -----------------------------------------------------------------------------
+# Permalink
+# -----------------------------------------------------------------------------
+
+permalink:
+  type: post
+  layers: @layers/pages/permalink.yml
+  view: @blocks/pages/permalink.twig
+
+# -----------------------------------------------------------------------------
+# Slideshows
+# -----------------------------------------------------------------------------
+
+list-slideshows:
+  path:
+    - /slideshows
+    - /slideshows/page/{page:\d+}
+  view: @blocks/pages/list-slideshows.twig
+  trailing_slash: force
+
+slideshow:
+  type: slideshow
+  path: /slideshows/{slideshow_slug}
+  view: @blocks/pages/slideshow.twig
+
+slide:
+  type: slide
+  view: @blocks/pages/slide.twig
+
+# -----------------------------------------------------------------------------
+# Contact
+# -----------------------------------------------------------------------------
+
+contact:
+  path: /contact
+  method: [GET, POST]
+  view: @blocks/pages/contact.twig
+  trailing_slash: remove
+
+# -----------------------------------------------------------------------------
+# Site-Wide Multivariate Test
+# -----------------------------------------------------------------------------
+
+sitetest:
+  path: /sitetest
+  view: @blocks/pages/sitetest.twig
+  trailing_slash: remove

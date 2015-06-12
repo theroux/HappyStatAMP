@@ -1,0 +1,43 @@
+
+navigation:
+
+  - title: Welcome
+    class: nav-welcome
+    selected: ~^/$~
+    path: /
+
+  - title: Posts
+    selected: ~^/posts.*~
+    path: /posts/
+    children:
+      - title: Technology
+        path: /posts/tech/
+      - title: Entertainment
+        path: /posts/entertainment/
+      - title: Cars
+        path: /posts/cars
+        children:
+          - title: Ford
+            path: /posts/cars/ford/
+          - title: Chevy
+            path: /posts/cars/chevy/
+          - title: Volkswagen
+            path: /posts/cars/volkswagen/
+
+  - title: Slideshows
+    selected: ~^/slideshow.*~
+    path: /slideshows/
+
+  - title: Contact
+    selected: ~^/contact$~
+    path: /contact
+
+  - title: Site Wide MV Test
+    selected: ~^/sitetest$~
+    path: /sitetest
+
+tracking:
+    channel: us.key
+    account: aolkeydev,devaolsvc
+    department: Main
+    sub_department: List Post

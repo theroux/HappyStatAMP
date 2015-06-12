@@ -1,0 +1,12 @@
+# -----------------------------------------------------------------------------
+# AMP Configuration File
+#
+# This file contains configuration settings for your site.
+#
+# You can store custom variables here that will be accessible under a `config`
+# object in code blocks and layers.
+# -----------------------------------------------------------------------------
+
+amp.default_locale: en-us
+
+site_name: AMP Workshop

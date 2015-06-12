@@ -1,0 +1,44 @@
+{# Macros for Multivariate Tests tracking in DataLayer #}
+{% macro attr (object_id, hashes) %}{"p":{"plid": "{{ object_id }}", "mvt": "{{ hashes }}"}}{% endmacro %}
+{% macro config () %}
+{# Load jQuery before including this twig file #}
+<script type="text/javascript">
+	{# DataLayer settings specific to your site #}
+	bN_cfg = {
+		h: location.hostname,
+		b: 'b.aol.com',
+		p: {
+			"dL_ch": "{{ vars.tracking.channel }}",
+			"dL_dpt": "{{ vars.tracking.department }}",
+			"dL_sDpt": "{{ vars.tracking.sub_department }}",
+			"dL_ste": "{{ vars.tracking.account }}",
+			"cms_src": "AMP",
+			"cobrand": "main"
+		}
+	};
+</script>
+<script src="http://o.aolcdn.com/os/aol/beacon.min.js"></script>
+{% endmacro %}
+{% macro ping () %}
+<script type="text/javascript">
+	{# Track impressions for all Multivariate tests in the page #}
+	$(document).ready(function () {
+		var plids = [], mvts = [];
+		$('.bN').each(function () {
+			var beaconData = $(this).attr('data-beacon');
+			if (beaconData !== '') {
+				beaconData = JSON.parse(beaconData);
+				if (beaconData.p && beaconData.p.plid && beaconData.p.mvt) {
+					plids.push(beaconData.p.plid);
+					mvts.push(beaconData.p.mvt);
+				}
+			}
+		});
+		if (mvts.length > 0) {
+			bN.set('plids', plids.join(';'), true);
+			bN.set('mvts', mvts.join(';'), true);
+			bN.ping('mlt');
+		}
+	});
+</script>
+{% endmacro %}

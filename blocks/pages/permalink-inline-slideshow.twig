@@ -1,0 +1,11 @@
+{% set slideshow = api.slideshows.get({ id: arg }) %}
+
+{% if slideshow %}
+	<div class="inline-slideshow">
+		<a href="/slideshows/{{ slideshow.slug }}"
+			 style="background-image:url(http://o.aolcdn.com/dims-shared/dims3/GLOB/thumbnail/700x700/{{ slideshow.image_url_large }})">
+			<span>{{ slideshow.title }}</span>
+			<i class="fa fa-picture-o"></i>
+		</a>
+	</div>
+{% endif %}
