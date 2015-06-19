@@ -1,0 +1,98 @@
+.sentiment-wrapper {
+	@extend %container;
+}
+.sentiment-row {
+	@extend %row;
+}
+.sentiment {
+	@extend %col-lg-10;
+	@extend %col-lg-offset-1;
+	@extend %col-md-10;
+	@extend %col-md-offset-1;
+	@extend %col-sm-12;
+	@extend %col-sm-offset-0;
+
+}
+
+.sentiment-form {
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+}
+.sentiment-fieldset {
+
+}
+.hs-legend {
+	display: none; // accessibility
+}
+
+.hs-question {
+	@extend %heading;
+	display: block;
+	margin: 0 auto 2.7em; // magic #
+	text-align: center;
+}
+$answerheight : 130px;
+.hs-answers {
+	display: table;
+	width: 100%;
+}
+
+.hs-answer-wrapper {
+	cursor: pointer;
+	position: relative;
+	display: table-cell;
+	height: $answerheight;
+	text-align: center;
+}
+.hs-label {
+	display: none;
+}
+.hs-answer {
+	height:$answerheight;
+	width: 100%;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5000;
+	margin: 0;
+}
+.hs-answer-placeholder {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.hs-answer + .hs-answer-placeholder:before {
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: '';
+	display: inline-block;
+	height: $answerheight;
+	width: 116px;
+}
+
+.hs-answer-great + .hs-answer-placeholder:before {
+	background-image: url(../images/smiles/great.png);
+}
+.hs-answer-great:checked + .hs-answer-placeholder:before {
+	background-image: url(../images/smiles/great-checked.png);
+}
+.hs-answer-ok + .hs-answer-placeholder:before {
+	background-image: url(../images/smiles/ok.png);
+}
+.hs-answer-ok:checked + .hs-answer-placeholder:before {
+	background-image: url(../images/smiles/ok-checked.png);
+}
+.hs-answer-notgreat + .hs-answer-placeholder:before {
+	background-image: url(../images/smiles/notgreat.png);
+}
+.hs-answer-notgreat:checked + .hs-answer-placeholder:before {
+	background-image: url(../images/smiles/notgreat-checked.png);
+}
+.sentiment-submit {
+	display: block;
+	margin: 2em auto;
+	@extend %button;
+}

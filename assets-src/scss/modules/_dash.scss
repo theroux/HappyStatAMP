@@ -1,0 +1,40 @@
+.dash-wrapper {
+	@extend %container;
+}
+.dash-row {
+	@extend %row;
+}
+.dash {
+	@extend %col-lg-10;
+	@extend %col-lg-offset-1;
+	@extend %col-md-10;
+	@extend %col-md-offset-1;
+	@extend %col-sm-12;
+	@extend %col-sm-offset-0;
+
+}
+
+.dash-title {
+	@extend %heading;
+	margin: 0 auto 1em;
+	text-align: center;
+}
+
+#chart svg {
+	height: 45vh;
+
+
+	text {
+		fill: $textcolor;
+	}
+
+    .nv-legendWrap  {
+    	.nv-series:first-child {
+    		&:before {
+    			background-image: url(../images/smiles/great.png);
+    			content: ' ';
+    			display: block;
+    		}
+    	}
+    }
+}

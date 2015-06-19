@@ -1,0 +1,79 @@
+//// Theme Variables
+
+// Fonts
+$font : 'Open Sans', Helvetica, sans-serif;
+
+// Font weights
+$bold : 600;
+$semibold : 400;
+
+$headingsize: 1.7rem;
+
+// Colors
+
+$headerbg: #e3eaf3;
+$logofill: #4c637b;
+$textcolor: #4c637b;
+$hrcolor : #e3eaf3;
+$highlight : #22c064;
+
+$nearblack : #222222;
+
+html {
+	//background-color: $nearblack;
+}
+
+body {
+	color: $textcolor;
+	font-family: $font;
+	font-weight: $semibold;
+}
+.wrapper {
+	background-color: #fff;
+}
+
+a {
+	color: $textcolor;
+}
+
+%heading {
+	font-size: $headingsize;
+	font-weight: $bold;
+}
+
+
+%button {
+	background: $highlight;
+	border: 2px solid $highlight;
+	color: #fff;
+	border-radius: 3px;
+	padding: 0.5em 1.5em;
+	.button-text {
+		float: left;
+		line-height: 2;
+	}
+	svg {
+		float: left;
+		fill: #fff;
+		height: 2em;
+		width: 2em;
+		margin-right: 0.5em;
+	}
+	&:hover {
+		background: #fff;
+		border: 2px solid $highlight;
+		color: $highlight;
+		svg {
+			fill: $highlight;
+		}
+	}
+	&[disabled], &[disabled]:hover {
+		background: #ccc;;
+		border: 2px solid #ccc;
+		color: #fff;
+		cursor: not-allowed;
+		svg {
+			fill: #fff;
+		}
+	}
+} 

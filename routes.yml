@@ -4,6 +4,27 @@ home:
   view: @blocks/pages/home.twig
 
 # -----------------------------------------------------------------------------
+# Custom Views
+# -----------------------------------------------------------------------------
+
+update:
+  path: /update
+  view: @blocks/pages/update.twig 
+
+suggestion:
+  path: /suggestion
+  view: @blocks/pages/suggestion.twig 
+
+faq:
+  path: /faq
+  view: @blocks/pages/faq.twig 
+
+team:
+  path: /team
+  view: @blocks/pages/team.twig 
+
+
+# -----------------------------------------------------------------------------
 # List Posts
 # -----------------------------------------------------------------------------
 
@@ -66,6 +87,7 @@ contact:
   method: [GET, POST]
   view: @blocks/pages/contact.twig
   trailing_slash: remove
+
 
 # -----------------------------------------------------------------------------
 # Site-Wide Multivariate Test

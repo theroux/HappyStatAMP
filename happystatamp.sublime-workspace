@@ -99,6 +99,31 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "blocks/modules/header.twig",
+			"settings":
+			{
+				"buffer_size": 335,
+				"line_ending": "Unix",
+				"name": "header"
+			}
+		},
+		{
+			"file": "blocks/modules/footer.twig",
+			"settings":
+			{
+				"buffer_size": 423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blocks/macros/mv-beacon.twig",
+			"settings":
+			{
+				"buffer_size": 1343,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -220,7 +245,7 @@
 				"Format: Javascript"
 			]
 		],
-		"width": 561.0
+		"width": 435.0
 	},
 	"console":
 	{
@@ -241,7 +266,9 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/andrewtheroux/Sites/happystatamp"
+		"/Users/andrewtheroux/Sites/happystatamp",
+		"/Users/andrewtheroux/Sites/happystatamp/blocks",
+		"/Users/andrewtheroux/Sites/happystatamp/blocks/modules"
 	],
 	"file_history":
 	[
@@ -555,8 +582,99 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "blocks/modules/header.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								335,
+								335
+							]
+						],
+						"settings":
+						{
+							"auto_name": "header",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Better Solarized.tmTheme",
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "blocks/modules/footer.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								347,
+								347
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Better Solarized.tmTheme",
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "blocks/macros/mv-beacon.twig",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Better Solarized.tmTheme",
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],

@@ -1,0 +1,115 @@
+.suggestion-wrapper {
+	@extend %container;
+}
+.suggestion-row {
+	@extend %row;
+}
+.suggestion {
+	@extend %col-lg-10;
+	@extend %col-lg-offset-1;
+	@extend %col-md-10;
+	@extend %col-md-offset-1;
+	@extend %col-sm-12;
+	@extend %col-sm-offset-0;
+
+}
+.suggestion-title {
+	@extend %heading;
+	
+	text-align: center;
+
+	margin-bottom: 2.7em;
+
+
+	@media #{$notlarge} { 
+		br {
+			//display: none;
+		}
+	}
+	
+
+}
+.suggestion-form-row {
+	@extend %row;
+}
+.suggestion-form {
+}
+.form-section-first {
+	@extend %col-lg-7;
+	@extend %col-md-7;
+	@extend %col-sm-12;
+
+	@extend %col-lg-offset-1;
+	@extend %col-md-offset-1;
+	@extend %col-sm-offset-0;
+
+	textarea {
+		display: block;
+		min-height: 10.2em;
+		width: 100%;
+		padding: 1em;
+		border: 2px solid $hrcolor;
+		border-radius: 3px;
+
+		@media #{$notlarge} { 
+			margin-bottom: 1em;
+		}
+	}
+
+	.textarea-label {
+		display: block;
+		margin-bottom: 1em;
+	}
+
+	.limit {
+		display: none;
+		float: right;
+		font-variant: small-caps;
+	}
+}
+.form-section-second {
+	@extend %col-lg-3;
+	@extend %col-md-3;
+	@extend %col-sm-12;
+
+	.topic {
+		border: 2px solid $hrcolor;
+		border-radius: 3px;
+		padding: 1em;
+	}
+
+	legend {
+		display: none;
+	}
+
+	.checkbox-wrapper {
+		margin-top: 1em;
+	}
+
+	input[type=checkbox] {
+		//-webkit-appearance:none;
+		margin-right: 0.5em;
+	}
+	input[type='checkbox']:checked + label {
+    	font-weight: bold;
+	}
+
+}
+.form-section-third {
+	@extend %col-lg-12;
+	@extend %col-md-12;
+	@extend %col-sm-12;
+
+	margin-top: 3em;
+	margin-bottom: 3em;
+
+	
+
+}
+
+
+.suggestion-submit {
+	display: block;
+	margin: 0 auto;
+	@extend %button;
+}
