@@ -712,10 +712,13 @@ html {
 }
 
 body {
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
@@ -723,6 +726,7 @@ body {
 
 .wrapper {
   margin-bottom: 3em;
+  -webkit-box-flex: 1;
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -1811,7 +1815,8 @@ Interactive Layer
 }
 @media only screen and (max-width: 1269px) {
   .nav-inner {
-    transition: max-height 0.2s;
+    -webkit-transition: max-height 0.2s;
+            transition: max-height 0.2s;
     background: #e3eaf3;
     border-radius: 3px;
     top: 0;

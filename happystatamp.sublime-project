@@ -2,7 +2,10 @@
 	"folders":
 	[
 		{
-			"path": "."
+			"follow_symlinks": true,
+			"path": ".",
+			"folder_exclude_patterns": [".sass-cache","node_modules","bak"]
+
 		}
 	]
 }
